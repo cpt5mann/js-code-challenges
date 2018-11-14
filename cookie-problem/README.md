@@ -23,3 +23,4 @@ cookieProblem([4, 5, 6]) // returns 3
 5 + 1 = 6 (1 additional cookie had to be given out)
 2 + 1 = 3 total additional cookies were given out
 ```
+ 

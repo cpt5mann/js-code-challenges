@@ -1,3 +1,12 @@
 module.exports = function cookieProblem(array) {
-  // write your code in here
-}
+    let goal= Math.max.apply(null, array);
+    let emptyarr = [];
+    array.forEach((i) =>{
+     let cookiediff = goal-i;
+     emptyarr.push(cookiediff); 
+    });
+    let sum = emptyarr.reduce((acc, curr) =>{
+      return acc + curr;
+    });
+    return sum;
+  }
